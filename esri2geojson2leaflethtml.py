@@ -1,5 +1,6 @@
 import os
 import json
+import webbrowser
 
 featureServerURL = 'https://services1.arcgis.com/k3vhq11XkBNeeOfM/ArcGIS/rest/services/CityBoundary/FeatureServer/0'
 datasetName = 'Richmond City Boundary'
@@ -10,6 +11,8 @@ outputMapName = datasetName + ' leaflet html map done!'
 mapGeoJSON = mapName + '.geojson'
 mapGeoJSONPath = '"' + mapGeoJSON + '"'
 mapHTML = mapName + '.html'
+localPath = 'file:///Users/j.albertbowden/Desktop/github/esri2geojson2leaflethtml/'
+mapHTMLName = localPath + mapHTML
 esriCall = 'esri2geojson ' + featureServerURL + ' ' + mapGeoJSON
 print('esri2geojson call!')
 
@@ -74,3 +77,5 @@ message = message + htmlScriptLeaflet + '</html>'
 f.write(message)
 f.close()
 print(outputMapName)
+
+webbrowser.open(mapHTMLName, new=2)  # open in new tab
