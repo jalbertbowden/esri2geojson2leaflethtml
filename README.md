@@ -21,4 +21,5 @@ TO DO:
 Cover all GeoJSON geometry types.  
 Implement setup functionality from HTML form.  
 Deploy on www.  
-All of the code is sloppy copy/pasta get it working...not even close to being ready for primetime.
+All of the code is sloppy copy/pasta get it working...not even close to being ready for primetime.  
+Open map in browser upon completion.
