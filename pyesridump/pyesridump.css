@@ -1,0 +1,35 @@
+/** *{
+	margin:0;
+	padding:0;
+	border:none;
+	box-sizing:border-box;
+} **/
+html{}
+body{}
+
+
+form{}
+fieldset{}
+legend{}
+label,
+input,
+.block{
+	display:block;
+}
+.block{
+	text-indent:5%;
+}
+input{
+	width:90%;
+	margin:1em auto;
+}
+input[type="submit"]{
+	width:auto;
+}
+
+
+h2{}
+h3{}
+p{}
+strong{}
+span{}
