@@ -1,5 +1,6 @@
 # esri2geojson2leaflethtml
 Python script that pulls GeoJSON data out of ESRI Arcgis servers and outputs Leaflet.js web map in HTML.
+[pyesridump browser implementation demo](https://bowdenweb.com/esri2geojson2leaflethtml/pyesridump.php)  
 
 Note: this is a work in progress/proof of concept. This can and should be optimized in more ways than one.  
 
